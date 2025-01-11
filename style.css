@@ -209,3 +209,47 @@ section>p {
     margin-top: 10px;
     font-size: 20px;
 }
+
+.news-section .news-card {
+    padding: 48px;
+    border-radius: 24px;
+    background: white;
+    display: flex;
+    gap: 32px;
+    margin-bottom: 24px;
+}
+
+.news-section .news-card:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.news-section .news-card img {
+    border-radius: 24px;
+    max-height: 306px;
+    margin-top: 12px;
+}
+
+.news-section .news-card h2 {
+    font-size: 38px;
+}
+
+.news-section .news-card p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 12px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.news-section .news-card>div>img {
+    height: 40px;
+}
+
+.news-section .news-card button {
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 8px 10px;
+    border: none;
+    color: white;
+    margin-top: 16px;
+    background: #006a50;
+}
