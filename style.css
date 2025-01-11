@@ -124,4 +124,88 @@ section>p {
     color: #0E0E0EB3;
     line-height: 24px;
 }
+.vision-section .card-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    margin-top: 32px;
+}
 
+.vision-section .card-list .vision-card {
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.vision-section .card-list .card-one {
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.vision-section .card-list .card-two {
+    background: rgba(198, 228, 214, 1);
+}
+
+.vision-section .card-list .card-three {
+    background: #F7EBCF;
+}
+
+.vision-section .card-list .vision-card img {
+    height: 62px;
+    margin-bottom: 24px;
+}
+
+.vision-section .card-list .vision-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0ECC;
+    margin-bottom: 12px;
+}
+
+.vision-section .card-list .vision-card p {
+    font-size: 16px;
+    color: #0E0E0EB3;
+    line-height: 24px;
+}
+
+.vision-section .card-list .vision-card button {
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 8px 10px;
+    border: none;
+    color: white;
+    margin-top: 16px;
+}
+
+.vision-section .card-list .vision-card:nth-child(1) button {
+    background: rgba(84, 144, 245, 1);
+}
+
+.vision-section .card-list .vision-card:nth-child(2) button {
+    background: #09a15c;
+}
+
+.vision-section .card-list .vision-card:nth-child(3) button {
+    background: #ffc239;
+}
+
+.quote {
+    background: white;
+    border-radius: 8px;
+    padding: 48px 24px;
+    margin-top: 32px;
+    background-image: url("images/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: 28px;
+    background-position-y: 20px;
+}
+
+.quote p {
+    color: rgba(14, 14, 14, 0.8);
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.quote h3 {
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 10px;
+    font-size: 20px;
+}
